@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { ClearCacheStatusEnum } from '../Types/ClearCacheStatus';
+import {z} from 'zod';
+import {ClearCacheStatusEnum} from '../Types/ClearCacheStatus';
 
 export const ClearCacheRequestSchema = z.object({});
 

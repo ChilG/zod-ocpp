@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { AvailabilityTypeEnum } from '../Types/AvailabilityType';
-import { AvailabilityStatusEnum } from '../Types/AvailabilityStatus';
+import {z} from 'zod';
+import {AvailabilityTypeEnum} from '../Types/AvailabilityType';
+import {AvailabilityStatusEnum} from '../Types/AvailabilityStatus';
 
 export const ChangeAvailabilityRequestSchema = z.object({
   connectorId: z.number().min(0),

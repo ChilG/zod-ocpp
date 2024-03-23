@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { DiagnosticsStatusEnum } from '../Types/DiagnosticsStatus';
+import {z} from 'zod';
+import {DiagnosticsStatusEnum} from '../Types/DiagnosticsStatus';
 
 export const DiagnosticsStatusNotificationRequestSchema = z.object({
   status: z.nativeEnum(DiagnosticsStatusEnum),

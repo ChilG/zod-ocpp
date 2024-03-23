@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { ChargingSchedulePeriodSchema } from './ChargingSchedulePeriod';
-import { ChargingRateUnitTypeEnum } from './ChargingRateUnitType';
+import {z} from 'zod';
+import {ChargingSchedulePeriodSchema} from './ChargingSchedulePeriod';
+import {ChargingRateUnitTypeEnum} from './ChargingRateUnitType';
 
 export const ChargingScheduleSchema = z.object({
   duration: z.number().nullish(),

@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { KeyValueSchema } from '../Types/KeyValue';
-import { CiString50Type } from '../Types/CiString50Type';
+import {z} from 'zod';
+import {KeyValueSchema} from '../Types/KeyValue';
+import {CiString50Type} from '../Types/CiString50Type';
 
 export const GetConfigurationRequestSchema = z.object({
   key: z.array(CiString50Type),

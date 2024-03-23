@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { IdToken } from '../Types/IdToken';
-import { IdTagInfoSchema } from '../Types/IdTagInfo';
+import {z} from 'zod';
+import {IdToken} from '../Types/IdToken';
+import {IdTagInfoSchema} from '../Types/IdTagInfo';
 
 export const StartTransactionRequestSchema = z.object({
   connectorId: z.number().min(0),

@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { MeterValueSchema } from '../Types/MeterValue';
+import {z} from 'zod';
+import {MeterValueSchema} from '../Types/MeterValue';
 
 export const MeterValuesRequestSchema = z.object({
   connectorId: z.number().min(0),

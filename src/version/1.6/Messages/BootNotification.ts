@@ -1,8 +1,8 @@
-import { z } from 'zod';
-import { RegistrationStatusEnum } from '../Types/RegistrationStatus';
-import { CiString20Type } from '../Types/CiString20Type';
-import { CiString25Type } from '../Types/CiString25Type';
-import { CiString50Type } from '../Types/CiString50Type';
+import {z} from 'zod';
+import {RegistrationStatusEnum} from '../Types/RegistrationStatus';
+import {CiString20Type} from '../Types/CiString20Type';
+import {CiString25Type} from '../Types/CiString25Type';
+import {CiString50Type} from '../Types/CiString50Type';
 
 export const BootNotificationRequestSchema = z.object({
   chargePointVendor: CiString25Type,

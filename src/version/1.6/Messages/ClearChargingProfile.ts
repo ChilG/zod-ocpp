@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { ChargingProfilePurposeTypeEnum } from '../Types/ChargingProfilePurposeType';
-import { ClearChargingProfileStatusEnum } from '../Types/ClearChargingProfileStatus';
+import {z} from 'zod';
+import {ChargingProfilePurposeTypeEnum} from '../Types/ChargingProfilePurposeType';
+import {ClearChargingProfileStatusEnum} from '../Types/ClearChargingProfileStatus';
 
 export const ClearChargingProfileRequestSchema = z.object({
   id: z.number(),

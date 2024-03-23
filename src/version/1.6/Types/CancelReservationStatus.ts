@@ -3,4 +3,5 @@ export const CancelReservationStatusEnum = {
   Rejected: 'Rejected',
 };
 
-export type CancelReservationStatusEnum = (typeof CancelReservationStatusEnum)[keyof typeof CancelReservationStatusEnum];
+export type CancelReservationStatusEnum =
+  (typeof CancelReservationStatusEnum)[keyof typeof CancelReservationStatusEnum];

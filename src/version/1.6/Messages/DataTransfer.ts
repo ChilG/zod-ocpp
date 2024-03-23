@@ -1,7 +1,7 @@
-import { z } from 'zod';
-import { DataTransferStatusEnum } from '../Types/DataTransferStatus';
-import { CiString255Type } from '../Types/CiString255Type';
-import { CiString50Type } from '../Types/CiString50Type';
+import {z} from 'zod';
+import {DataTransferStatusEnum} from '../Types/DataTransferStatus';
+import {CiString255Type} from '../Types/CiString255Type';
+import {CiString50Type} from '../Types/CiString50Type';
 
 export const DataTransferRequestSchema = z.object({
   vendorId: CiString255Type,

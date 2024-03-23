@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { CancelReservationStatusEnum } from '../Types/CancelReservationStatus';
+import {z} from 'zod';
+import {CancelReservationStatusEnum} from '../Types/CancelReservationStatus';
 
 export const CancelReservationRequestSchema = z.object({
   reservationId: z.number(),

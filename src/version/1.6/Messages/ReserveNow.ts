@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { IdToken } from '../Types/IdToken';
-import { ReservationStatusEnum } from '../Types/ReservationStatus';
+import {z} from 'zod';
+import {IdToken} from '../Types/IdToken';
+import {ReservationStatusEnum} from '../Types/ReservationStatus';
 
 export const ReserveNowRequestSchema = z.object({
   connectorId: z.number().min(0),

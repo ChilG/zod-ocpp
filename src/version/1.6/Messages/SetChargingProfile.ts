@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { ChargingProfileSchema } from '../Types/ChargingProfile';
-import { ChargingProfileStatusEnum } from '../Types/ChargingProfileStatus';
+import {z} from 'zod';
+import {ChargingProfileSchema} from '../Types/ChargingProfile';
+import {ChargingProfileStatusEnum} from '../Types/ChargingProfileStatus';
 
 export const SetChargingProfileRequestSchema = z.object({
   connectorId: z.number(),

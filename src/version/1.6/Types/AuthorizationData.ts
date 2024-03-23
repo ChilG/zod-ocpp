@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { IdToken } from './IdToken';
-import { IdTagInfoSchema } from './IdTagInfo';
+import {z} from 'zod';
+import {IdToken} from './IdToken';
+import {IdTagInfoSchema} from './IdTagInfo';
 
 export const AuthorizationDataSchema = z.object({
   idTag: IdToken,

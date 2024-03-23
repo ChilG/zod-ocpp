@@ -4,4 +4,5 @@ export const ChargingProfilePurposeTypeEnum = {
   TxProfile: 'TxProfile',
 };
 
-export type ChargingProfilePurposeTypeEnum = (typeof ChargingProfilePurposeTypeEnum)[keyof typeof ChargingProfilePurposeTypeEnum];
+export type ChargingProfilePurposeTypeEnum =
+  (typeof ChargingProfilePurposeTypeEnum)[keyof typeof ChargingProfilePurposeTypeEnum];

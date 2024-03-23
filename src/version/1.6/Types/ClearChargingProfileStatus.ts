@@ -3,4 +3,5 @@ export const ClearChargingProfileStatusEnum = {
   Unknown: 'Unknown',
 };
 
-export type ClearChargingProfileStatusEnum = (typeof ClearChargingProfileStatusEnum)[keyof typeof ClearChargingProfileStatusEnum];
+export type ClearChargingProfileStatusEnum =
+  (typeof ClearChargingProfileStatusEnum)[keyof typeof ClearChargingProfileStatusEnum];

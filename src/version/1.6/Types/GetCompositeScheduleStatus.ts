@@ -3,4 +3,5 @@ export const GetCompositeScheduleStatusEnum = {
   Rejected: 'Rejected',
 };
 
-export type GetCompositeScheduleStatusEnum = (typeof GetCompositeScheduleStatusEnum)[keyof typeof GetCompositeScheduleStatusEnum];
+export type GetCompositeScheduleStatusEnum =
+  (typeof GetCompositeScheduleStatusEnum)[keyof typeof GetCompositeScheduleStatusEnum];

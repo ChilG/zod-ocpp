@@ -1,8 +1,8 @@
-import { z } from 'zod';
-import { ChargePointErrorCodeEnum } from '../Types/ChargePointErrorCode';
-import { CiString50Type } from '../Types/CiString50Type';
-import { ChargePointStatusEnum } from '../Types/ChargePointStatus';
-import { CiString255Type } from '../Types/CiString255Type';
+import {z} from 'zod';
+import {ChargePointErrorCodeEnum} from '../Types/ChargePointErrorCode';
+import {CiString50Type} from '../Types/CiString50Type';
+import {ChargePointStatusEnum} from '../Types/ChargePointStatus';
+import {CiString255Type} from '../Types/CiString255Type';
 
 export const StatusNotificationRequestSchema = z.object({
   connectorId: z.number().min(0),

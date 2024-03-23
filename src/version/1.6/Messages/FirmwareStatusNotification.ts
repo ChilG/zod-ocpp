@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { FirmwareStatusEnum } from '../Types/FirmwareStatus';
+import {z} from 'zod';
+import {FirmwareStatusEnum} from '../Types/FirmwareStatus';
 
 export const FirmwareStatusNotificationRequestSchema = z.object({
   status: z.nativeEnum(FirmwareStatusEnum),

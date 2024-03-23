@@ -1,8 +1,8 @@
-import { z } from 'zod';
-import { IdToken } from '../Types/IdToken';
-import { ReasonEnum } from '../Types/Reason';
-import { MeterValueSchema } from '../Types/MeterValue';
-import { IdTagInfoSchema } from '../Types/IdTagInfo';
+import {z} from 'zod';
+import {IdToken} from '../Types/IdToken';
+import {ReasonEnum} from '../Types/Reason';
+import {MeterValueSchema} from '../Types/MeterValue';
+import {IdTagInfoSchema} from '../Types/IdTagInfo';
 
 export const StopTransactionRequestSchema = z.object({
   idTag: IdToken.nullish(),

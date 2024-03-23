@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { ResetTypeEnum } from '../Types/ResetType';
-import { ResetStatusEnum } from '../Types/ResetStatus';
+import {z} from 'zod';
+import {ResetTypeEnum} from '../Types/ResetType';
+import {ResetStatusEnum} from '../Types/ResetStatus';
 
 export const ResetRequestSchema = z.object({
   type: z.nativeEnum(ResetTypeEnum),

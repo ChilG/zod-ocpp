@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { SampledValueSchema } from './SampledValue';
+import {z} from 'zod';
+import {SampledValueSchema} from './SampledValue';
 
 export const MeterValueSchema = z.object({
   timestamp: z.date(),

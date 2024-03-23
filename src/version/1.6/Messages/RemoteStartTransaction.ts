@@ -1,7 +1,7 @@
-import { z } from 'zod';
-import { IdToken } from '../Types/IdToken';
-import { ChargingProfileSchema } from '../Types/ChargingProfile';
-import { RemoteStartStopStatusEnum } from '../Types/RemoteStartStopStatus';
+import {z} from 'zod';
+import {IdToken} from '../Types/IdToken';
+import {ChargingProfileSchema} from '../Types/ChargingProfile';
+import {RemoteStartStopStatusEnum} from '../Types/RemoteStartStopStatus';
 
 export const RemoteStartTransactionRequestSchema = z.object({
   connectorId: z.number().nullish(),

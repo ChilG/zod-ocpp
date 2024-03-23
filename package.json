@@ -8,7 +8,19 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": ["ocpp", "ocpp1.6", "ocpp1.6j" , "openchargealliance", "zod", "charge point", "central system" ,"OCPP", "OCPP1.6", "type", "EV"],
+  "keywords": [
+    "ocpp",
+    "ocpp1.6",
+    "ocpp1.6j",
+    "openchargealliance",
+    "zod",
+    "charge point",
+    "central system",
+    "OCPP",
+    "OCPP1.6",
+    "type",
+    "EV"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ChilG/zod-ocpp.git"
@@ -17,6 +29,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
+    "prettier": "^3.2.5",
     "typescript": "^5.4.3"
   },
   "dependencies": {

@@ -1,7 +1,7 @@
-import { z } from 'zod';
-import { AuthorizationDataSchema } from '../Types/AuthorizationData';
-import { UpdateTypeEnum } from '../Types/UpdateType';
-import { UpdateStatusEnum } from '../Types/UpdateStatus';
+import {z} from 'zod';
+import {AuthorizationDataSchema} from '../Types/AuthorizationData';
+import {UpdateTypeEnum} from '../Types/UpdateType';
+import {UpdateStatusEnum} from '../Types/UpdateStatus';
 
 export const SendLocalListRequestSchema = z.object({
   listVersion: z.number(),

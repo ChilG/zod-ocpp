@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { CiString255Type } from '../Types/CiString255Type';
+import {z} from 'zod';
+import {CiString255Type} from '../Types/CiString255Type';
 
 export const GetDiagnosticsRequestSchema = z.object({
   location: z.string(),

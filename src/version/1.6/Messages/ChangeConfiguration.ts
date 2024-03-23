@@ -1,7 +1,7 @@
-import { z } from 'zod';
-import { ConfigurationStatusEnum } from '../Types/ConfigurationStatus';
-import { CiString50Type } from '../Types/CiString50Type';
-import { CiString500Type } from '../Types/CiString500Type';
+import {z} from 'zod';
+import {ConfigurationStatusEnum} from '../Types/ConfigurationStatus';
+import {CiString50Type} from '../Types/CiString50Type';
+import {CiString500Type} from '../Types/CiString500Type';
 
 export const ChangeConfigurationRequestSchema = z.object({
   key: CiString50Type,

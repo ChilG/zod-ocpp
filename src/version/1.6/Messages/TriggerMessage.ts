@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { MessageTriggerEnum } from '../Types/MessageTrigger';
-import { TriggerMessageStatusEnum } from '../Types/TriggerMessageStatus';
+import {z} from 'zod';
+import {MessageTriggerEnum} from '../Types/MessageTrigger';
+import {TriggerMessageStatusEnum} from '../Types/TriggerMessageStatus';
 
 export const TriggerMessageRequestSchema = z.object({
   requestedMessage: z.nativeEnum(MessageTriggerEnum),

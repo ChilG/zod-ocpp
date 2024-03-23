@@ -1,8 +1,8 @@
-import { z } from 'zod';
-import { ChargingProfilePurposeTypeEnum } from './ChargingProfilePurposeType';
-import { ChargingProfileKindEnum } from './ChargingProfileKindType';
-import { ChargingScheduleSchema } from './ChargingSchedule';
-import { RecurrencyKindTypeEnum } from './RecurrencyKindType';
+import {z} from 'zod';
+import {ChargingProfilePurposeTypeEnum} from './ChargingProfilePurposeType';
+import {ChargingProfileKindEnum} from './ChargingProfileKindType';
+import {ChargingScheduleSchema} from './ChargingSchedule';
+import {RecurrencyKindTypeEnum} from './RecurrencyKindType';
 
 export const ChargingProfileSchema = z.object({
   chargingProfileId: z.number(),

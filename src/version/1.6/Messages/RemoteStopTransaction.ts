@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { RemoteStartStopStatusEnum } from '../Types/RemoteStartStopStatus';
+import {z} from 'zod';
+import {RemoteStartStopStatusEnum} from '../Types/RemoteStartStopStatus';
 
 export const RemoteStopTransactionRequestSchema = z.object({
   transactionId: z.number(),

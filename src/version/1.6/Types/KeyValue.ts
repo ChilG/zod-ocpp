@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import {z} from 'zod';
 
 export const KeyValueSchema = z.object({
   key: z.string().max(50),

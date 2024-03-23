@@ -1,7 +1,7 @@
-import { z } from 'zod';
-import { ChargingScheduleSchema } from '../Types/ChargingSchedule';
-import { ChargingRateUnitTypeEnum } from '../Types/ChargingRateUnitType';
-import { GetCompositeScheduleStatusEnum } from '../Types/GetCompositeScheduleStatus';
+import {z} from 'zod';
+import {ChargingScheduleSchema} from '../Types/ChargingSchedule';
+import {ChargingRateUnitTypeEnum} from '../Types/ChargingRateUnitType';
+import {GetCompositeScheduleStatusEnum} from '../Types/GetCompositeScheduleStatus';
 
 export const GetCompositeScheduleRequestSchema = z.object({
   connectorId: z.number(),
