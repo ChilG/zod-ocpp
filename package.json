@@ -1,6 +1,6 @@
 {
   "name": "zod-ocpp",
-  "version": "1.0.0d",
+  "version": "1.0.0f",
   "description": "Typescript ocpp 1.6 validate schema with zod.",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",

@@ -1,1 +1,1 @@
-This is my first lib.
+OCPP 1.6 schema validate with zod
