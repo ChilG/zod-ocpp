@@ -1,14 +1,18 @@
 {
   "name": "zod-ocpp",
-  "version": "1.0.0",
-  "description": "ocpp validate schema with zod.",
+  "version": "1.0.0d",
+  "description": "Typescript ocpp 1.6 validate schema with zod.",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "keywords": ["ocpp", "ocpp1.6", "ocpp1.6j" , "openchargealliance"],
+  "keywords": ["ocpp", "ocpp1.6", "ocpp1.6j" , "openchargealliance", "zod", "charge point", "central system" ,"OCPP", "OCPP1.6", "type", "EV"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChilG/zod-ocpp.git"
+  },
   "author": "ChilG",
   "license": "ISC",
   "devDependencies": {
