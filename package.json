@@ -27,7 +27,7 @@
     "url": "https://github.com/ChilG/zod-ocpp.git"
   },
   "author": "ChilG",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.30",
     "prettier": "^3.2.5",
