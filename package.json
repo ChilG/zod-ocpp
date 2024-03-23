@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "public": "npm publish"
+    "publish": "npm publish"
   },
   "keywords": [
     "ocpp",
