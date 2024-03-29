@@ -1,7 +1,7 @@
 {
   "name": "zod-ocpp",
-  "version": "1.0.3",
-  "description": "Typescript ocpp 1.6 validate schema with zod.",
+  "version": "1.0.4",
+  "description": "Typescript Open Charge Point Protocol v1.6 (ocpp1.6j) validate schema with zod.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -14,6 +14,7 @@
     "ocpp1.6",
     "ocpp1.6j",
     "openchargealliance",
+    "Open Charge Point Protocol v1.6",
     "zod",
     "charge point",
     "central system",
