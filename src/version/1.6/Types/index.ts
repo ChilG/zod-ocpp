@@ -48,3 +48,7 @@ export * from './UnlockStatus';
 export * from './UpdateStatus';
 export * from './UpdateType';
 export * from './ValueFormat';
+export * from './Call';
+export * from './CallError';
+export * from './CallResult';
+export * from './ErrorCode';
