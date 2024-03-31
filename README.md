@@ -4,9 +4,9 @@ zod-ocpp is a TypeScript library that provides validation schemas for the Open C
 
 ## Table of contents
 
-- [Installation](#Installation)
-- [Example](#Example)
-- [Schema and Enum](#Schema and Enum)
+- [Installation](#installation)
+- [Example](#example)
+- [Schema and Enum](#schema-and-enum)
   - [Message](#Message)
   - [Configuration](#Configuration)
   - [Types](#Types)
