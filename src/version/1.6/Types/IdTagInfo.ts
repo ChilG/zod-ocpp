@@ -4,7 +4,7 @@ import {IdToken} from './IdToken';
 
 export const IdTagInfoSchema = z.object({
   status: z.nativeEnum(AuthorizationStatusEnum),
-  expiryDate: z.date().nullish(),
+  expiryDate: z.string().datetime().nullish(),
   parentIdTag: IdToken.nullish(),
 });
 

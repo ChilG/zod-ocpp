@@ -11,8 +11,8 @@ export const ChargingProfileSchema = z.object({
   chargingProfilePurpose: z.nativeEnum(ChargingProfilePurposeTypeEnum),
   chargingProfileKind: z.nativeEnum(ChargingProfileKindEnum),
   recurrencyKind: z.nativeEnum(RecurrencyKindTypeEnum).nullish(),
-  validFrom: z.date().nullish(),
-  validTo: z.date().nullish(),
+  validFrom: z.string().datetime().nullish(),
+  validTo: z.string().datetime().nullish(),
   chargingSchedule: ChargingScheduleSchema,
 });
 

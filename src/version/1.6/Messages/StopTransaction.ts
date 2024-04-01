@@ -7,7 +7,7 @@ import {IdTagInfoSchema} from '../Types/IdTagInfo';
 export const StopTransactionRequestSchema = z.object({
   idTag: IdToken.nullish(),
   meterStop: z.number(),
-  timestamp: z.date(),
+  timestamp: z.string().datetime(),
   transactionId: z.number(),
   reason: z.nativeEnum(ReasonEnum).nullish(),
   transactionData: z.array(MeterValueSchema).nullish(),
