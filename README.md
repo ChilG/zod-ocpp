@@ -96,7 +96,7 @@ import { BootNotificationResponseSchema } from 'zod-ocpp';
 
 const responsePayload = {
   status: 'Accepted',
-  currentTime: new Date('2024-03-31T15:01:21.325Z'),
+  currentTime: '2024-03-31T15:01:21.325Z',
   interval: 300,
 };
 
@@ -180,7 +180,6 @@ if (result.success) {
 - [GetCompositeScheduleStatus](src%2Fversion%2F1.6%2FTypes%2FGetCompositeScheduleStatus.ts)
 - [IdTagInfo](src%2Fversion%2F1.6%2FTypes%2FIdTagInfo.ts)
 - [IdToken](src%2Fversion%2F1.6%2FTypes%2FIdToken.ts)
-- [index](src%2Fversion%2F1.6%2FTypes%2Findex.ts)
 - [KeyValue](src%2Fversion%2F1.6%2FTypes%2FKeyValue.ts)
 - [Location](src%2Fversion%2F1.6%2FTypes%2FLocation.ts)
 - [Measurand](src%2Fversion%2F1.6%2FTypes%2FMeasurand.ts)

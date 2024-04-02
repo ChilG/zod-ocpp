@@ -4,7 +4,7 @@ import {ReservationStatusEnum} from '../Types/ReservationStatus';
 
 export const ReserveNowRequestSchema = z.object({
   connectorId: z.number().min(0),
-  expiryDate: z.date(),
+  expiryDate: z.string().datetime(),
   idTag: IdToken,
   parentIdTag: IdToken.nullish(),
   reservationId: z.number(),

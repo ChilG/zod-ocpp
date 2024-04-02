@@ -5,8 +5,8 @@ export const GetDiagnosticsRequestSchema = z.object({
   location: z.string(),
   retries: z.number().nullish(),
   retryInterval: z.number().nullish(),
-  startTime: z.date().nullish(),
-  stopTime: z.date().nullish(),
+  startTime: z.string().datetime().nullish(),
+  stopTime: z.string().datetime().nullish(),
 });
 
 export type GetDiagnosticsRequest = z.infer<typeof GetDiagnosticsRequestSchema>;

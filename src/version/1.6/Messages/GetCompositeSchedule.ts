@@ -14,7 +14,7 @@ export type GetCompositeScheduleRequest = z.infer<typeof GetCompositeScheduleReq
 export const GetCompositeScheduleResponseSchema = z.object({
   status: z.nativeEnum(GetCompositeScheduleStatusEnum),
   connectorId: z.number().nullish(),
-  scheduleStart: z.date().nullish(),
+  scheduleStart: z.string().datetime().nullish(),
   chargingSchedule: ChargingScheduleSchema.nullish(),
 });
 
