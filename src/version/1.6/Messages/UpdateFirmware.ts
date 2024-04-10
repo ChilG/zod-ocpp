@@ -3,7 +3,7 @@ import {z} from 'zod';
 export const UpdateFirmwareRequestSchema = z.object({
   location: z.string(),
   retries: z.number().nullish(),
-  retrieveDate: z.string().datetime(),
+  retrieveDate: z.string().datetime({offset: true}),
   retryInterval: z.number().nullish(),
 });
 

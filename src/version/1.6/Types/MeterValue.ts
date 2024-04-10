@@ -2,7 +2,7 @@ import {z} from 'zod';
 import {SampledValueSchema} from './SampledValue';
 
 export const MeterValueSchema = z.object({
-  timestamp: z.string().datetime(),
+  timestamp: z.string().datetime({offset: true}),
   sampledValue: z.array(SampledValueSchema),
 });
 
