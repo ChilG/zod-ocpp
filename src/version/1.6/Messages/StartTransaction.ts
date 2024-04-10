@@ -7,7 +7,7 @@ export const StartTransactionRequestSchema = z.object({
   idTag: IdToken,
   meterStart: z.number(),
   reservationId: z.number().nullish(),
-  timestamp: z.string().datetime(),
+  timestamp: z.string().datetime({offset: true}),
 });
 
 export type StartTransactionRequest = z.infer<typeof StartTransactionRequestSchema>;

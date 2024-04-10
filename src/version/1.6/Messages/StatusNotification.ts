@@ -9,7 +9,7 @@ export const StatusNotificationRequestSchema = z.object({
   errorCode: z.nativeEnum(ChargePointErrorCodeEnum),
   info: CiString50Type.nullish(),
   status: z.nativeEnum(ChargePointStatusEnum),
-  timestamp: z.string().datetime().nullish(),
+  timestamp: z.string().datetime({offset: true}).nullish(),
   vendorId: CiString255Type.nullish(),
   vendorErrorCode: CiString50Type.nullish(),
 });

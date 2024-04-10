@@ -20,7 +20,7 @@ export type BootNotificationRequest = z.infer<typeof BootNotificationRequestSche
 
 export const BootNotificationResponseSchema = z.object({
   status: z.nativeEnum(RegistrationStatusEnum),
-  currentTime: z.string().datetime(),
+  currentTime: z.string().datetime({offset: true}),
   interval: z.number(),
 });
 
