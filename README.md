@@ -2,6 +2,10 @@
 
 zod-ocpp is a TypeScript library that provides validation schemas for the Open Charge Point Protocol (OCPP) 1.6J specification using the [Zod](https://github.com/colinhacks/zod) library. It allows you to validate OCPP 1.6J request and response payloads against the official specification.
 
+## Road map
+
+- Schema ocpp v2.0.1
+
 ## Table of contents
 
 - [Installation](#installation)
