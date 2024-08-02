@@ -7,7 +7,7 @@ export const ChargingScheduleSchema = z.object({
   startSchedule: z.string().datetime({offset: true}).nullish(),
   chargingRateUnit: z.nativeEnum(ChargingRateUnitTypeEnum),
   chargingSchedulePeriod: z.array(ChargingSchedulePeriodSchema),
-  minChargingRate: z.number(),
+  minChargingRate: z.number().nullish(),
 });
 
 export type ChargingSchedule = z.infer<typeof ChargingScheduleSchema>;
