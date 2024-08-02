@@ -3,10 +3,10 @@ import {ChargingProfilePurposeTypeEnum} from '../Types/ChargingProfilePurposeTyp
 import {ClearChargingProfileStatusEnum} from '../Types/ClearChargingProfileStatus';
 
 export const ClearChargingProfileRequestSchema = z.object({
-  id: z.number(),
-  connectorId: z.number(),
-  chargingProfilePurpose: z.nativeEnum(ChargingProfilePurposeTypeEnum),
-  stackLevel: z.number(),
+  id: z.number().nullish(),
+  connectorId: z.number().nullish(),
+  chargingProfilePurpose: z.nativeEnum(ChargingProfilePurposeTypeEnum).nullish(),
+  stackLevel: z.number().nullish(),
 });
 
 export type ClearChargingProfileRequest = z.infer<typeof ClearChargingProfileRequestSchema>;

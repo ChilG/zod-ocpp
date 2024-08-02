@@ -1,5 +1,5 @@
 {
-  "name": "zod-ocpp",
+  "name": "@chilg/zod-ocpp",
   "version": "1.1.0",
   "description": "Typescript Open Charge Point Protocol v1.6, v2.0.1 validate schema with zod.",
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChilG/zod-ocpp.git"
+    "url": "git@github.com:ChilG/zod-ocpp.git"
   },
   "author": "ChilG",
   "license": "MIT",

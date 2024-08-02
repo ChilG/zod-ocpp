@@ -1,11 +1,17 @@
 import {z} from 'zod';
-import {AuthorizationDataSchema} from '../Types/AuthorizationData';
 import {UpdateTypeEnum} from '../Types/UpdateType';
 import {UpdateStatusEnum} from '../Types/UpdateStatus';
+import {IdToken} from '../Types/IdToken';
+import {IdTagInfoSchema} from '../Types/IdTagInfo';
 
 export const SendLocalListRequestSchema = z.object({
   listVersion: z.number(),
-  localAuthorizationList: z.array(AuthorizationDataSchema),
+  localAuthorizationList: z.array(
+    z.object({
+      idTag: IdToken,
+      idTagInfo: IdTagInfoSchema.nullish(),
+    })
+  ),
   updateType: z.nativeEnum(UpdateTypeEnum),
 });
 
