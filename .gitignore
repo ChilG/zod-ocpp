@@ -130,3 +130,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+/src/version/2.0.1/playground/
