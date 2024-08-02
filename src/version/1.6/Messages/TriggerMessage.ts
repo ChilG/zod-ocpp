@@ -4,7 +4,7 @@ import {TriggerMessageStatusEnum} from '../Types/TriggerMessageStatus';
 
 export const TriggerMessageRequestSchema = z.object({
   requestedMessage: z.nativeEnum(MessageTriggerEnum),
-  connectorId: z.number().min(0),
+  connectorId: z.number().min(0).nullish(),
 });
 
 export type TriggerMessageRequest = z.infer<typeof TriggerMessageRequestSchema>;

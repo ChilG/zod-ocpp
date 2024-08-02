@@ -8,12 +8,12 @@ import {UnitOfMeasureEnum} from './UnitOfMeasure';
 
 export const SampledValueSchema = z.object({
   value: z.string(),
-  context: z.nativeEnum(ReadingContextEnum),
-  format: z.nativeEnum(ValueFormatEnum),
-  measurand: z.nativeEnum(MeasurandEnum),
+  context: z.nativeEnum(ReadingContextEnum).nullish(),
+  format: z.nativeEnum(ValueFormatEnum).nullish(),
+  measurand: z.nativeEnum(MeasurandEnum).nullish(),
   phase: z.nativeEnum(PhaseEnum).nullish(),
-  location: z.nativeEnum(LocationEnum),
-  unit: z.nativeEnum(UnitOfMeasureEnum),
+  location: z.nativeEnum(LocationEnum).nullish(),
+  unit: z.nativeEnum(UnitOfMeasureEnum).nullish(),
 });
 
 export type SampledValue = z.infer<typeof SampledValueSchema>;
